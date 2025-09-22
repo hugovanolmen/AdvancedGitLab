@@ -12,5 +12,9 @@ public class Main {
 
         LocalDate date = LocalDate.now();
         System.out.println("Today is: " + date);
+
+        //Additional changes
+        System.out.println("Stash changes");
+        scanner.close();
     }
 }
