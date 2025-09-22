@@ -1,5 +1,7 @@
 package com.example;
 
+import java.time.LocalDate;
+
 import java.util.Scanner;
 
 public class Main {
@@ -8,5 +10,8 @@ public class Main {
         System.out.println("Enter the user name");
         String name = scanner.nextLine();
         System.out.println("Welcome " + name);
+        
+        LocalDate date = LocalDate.now();
+        System.out.println("Today is: " + date);
     }
 }
