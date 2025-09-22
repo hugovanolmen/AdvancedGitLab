@@ -9,8 +9,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the user name");
         String name = scanner.nextLine();
-        System.out.println("Welcome " + name);
-        
+        System.out.println("Welcome to the Ironhack course, " + name + "!");
+
         LocalDate date = LocalDate.now();
         System.out.println("Today is: " + date);
     }
